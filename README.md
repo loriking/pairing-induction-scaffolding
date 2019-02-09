@@ -3,9 +3,11 @@
 This repository contains scaffoldings for the Pairing Induction for different
 languages, currently supported:
 
- - Java
- - Javascript
- - Kotlin
+ - [Java](java/README.md)
+ - [Javascript](javascript/README.md)
+ - [Kotlin](kotlin/README.md)
+ - [Scala](scala/README.md)
+
 
  The projects are very simple and contain all the necessary setup to be able
  to start writing code and tests and be able to run the tests.
