@@ -1,50 +1,13 @@
 # Pairing Induction Exercise
 
-## Requirements
+There are several dependency management and build tools available for NodeJS and Javascript, we provide instructions for the following options:
 
-In order to be able to work with the exercise, you need to install `node` and
-either `npm` or `yarn`. Using homebrew:
+* [NPM](README-NPM.md)
+* [Yarn](README-YARN.md)
 
-If you prefer *NPM*, this command will install both `node` and `npm`
-(don't need to install `yarn`):
+Both package managers can coexist peacefully, so not a big deal choosing one or the other, some of the differences are:
 
-```bash
-brew install node
-```
-
-If you prefer *YARN*, then use this command instead (this will also install
-`node`):
-
-```bash
-brew install yarn
-```
-
-## Quick Start
-
-First bring all the dependencies:
-
-```bash
-npm install
-```
-
-or
-
-```bash
-yarn install
-```
-
-Tests can be executed in the terminal, from the root folder of the project:
-
-```bash
-npm run test
-```
-
-or
-
-```bash
-yarn test
-```
-
-or
-
-Using the IDE
+- NPM is the official tool
+- Yarn provides some extra features (such as offline mode and license checking)
+- Both use the same registry to manage dependencies
+- Both have similar CLI syntax
