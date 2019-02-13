@@ -1,8 +1,9 @@
 # Pairing Induction Scaffoldings
 
 This repository contains scaffoldings for the Pairing Induction for different
-languages, currently supported:
+languages, currently supported (sorted alphabetically):
 
+ - [Elixir](elixir/README.md)
  - [Java](java/README.md)
  - [Javascript](javascript/README.md)
  - [Kotlin](kotlin/README.md)
